@@ -22,7 +22,7 @@ const Sidebar = () => {
           <div className="self-stretch flex flex-col items-start justify-start">
             <div className="self-stretch flex flex-row items-end justify-start gap-[1rem]">
               <div className="flex">
-                <div className="font-inter font-semibold max-w-[110px] text-ellipsis relative leading-[1.188rem] flex items-center shrink-0">
+                <div className="font-inter font-medium max-w-[110px] text-ellipsis relative leading-[1.188rem] flex items-center shrink-0">
                   Sahil&apos;s workspace
                 </div>
                 {"..."}
@@ -33,7 +33,7 @@ const Sidebar = () => {
                 src="/frame-1.svg"
               />
             </div>
-            <div className="relative text-[0.813rem] leading-[1rem] font-semibold text-gray-400 inline-block min-w-[3.625rem] mt-[-0.063rem]">
+            <div className="relative text-[0.813rem] leading-[1rem] font-medium text-gray-400 inline-block min-w-[3.625rem] mt-[-0.063rem]">
               Free Plan
             </div>
           </div>

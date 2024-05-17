@@ -17,7 +17,7 @@ const Dashboard = () => {
               <div className="flex-1 flex flex-col gap-[1rem] mq800:gap-[1.25rem]">
                 <div className="flex flex-col items-start justify-start gap-[0.75rem] text-left text-[1.5rem] text-gray-100 font-inter">
                   <div className="flex flex-row items-start justify-start pt-[0.062rem] pb-[0rem] pr-[0.062rem] pl-[0rem]">
-                    <span className="font-semibold m-0 relative text-inherit tracking-[-0.12px] leading-[1.75rem] mq450:text-[1.188rem] mq450:leading-[1.375rem]">
+                    <span className="font-medium m-0 relative text-inherit tracking-[-0.12px] leading-[1.75rem] mq450:text-[1.188rem] mq450:leading-[1.375rem]">
                       Let&apos;s create some <span className="font-bold">videos!</span>
                     </span>
                   </div>

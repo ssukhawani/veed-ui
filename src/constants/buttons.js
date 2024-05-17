@@ -19,6 +19,7 @@ const buttonsData = [
       imgSrc: '/frame-19.svg',
       text: 'Record Podcast',
       hoverColor: '[#FFA31A]',
+      isNew:true
     },
   ];
   

@@ -9,7 +9,7 @@ const ProjectCard = ({ imgSrc, status, projectName, time }) => {
           src={imgSrc}
         />
         <div className="rounded-8xs flex items-center justify-center bg-coral text-white z-[3] absolute right-2 top-2 px-[6px] py-[2px]">
-          <div className="text-[13px] font-semibold inline-block">
+          <div className="text-[13px] font-medium inline-block">
             {status}
           </div>
         </div>
@@ -18,7 +18,7 @@ const ProjectCard = ({ imgSrc, status, projectName, time }) => {
         <div className="relative leading-[1rem] font-medium inline-block min-w-[5.25rem]">
           {projectName}
         </div>
-        <div className="relative text-[0.719rem] tracking-[0.12px] leading-[0.75rem] text-darkgray inline-block min-w-[7.813rem] whitespace-nowrap">
+        <div className="relative text-[0.719rem] font-medium tracking-[0.12px] leading-[0.75rem] text-darkgray inline-block min-w-[7.813rem] whitespace-nowrap">
           {time}
         </div>
       </div>
