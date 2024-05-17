@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+// eslint-disable-next-line no-undef
+module.exports  = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -30,7 +31,7 @@ module.exports = {
       },
       spacing: {},
       fontFamily: {
-        inter: "Inter",
+        inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
         "3xs": "10px",

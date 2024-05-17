@@ -8,7 +8,7 @@ const ProjectCard = ({ imgSrc, status, projectName, time }) => {
           alt=""
           src={imgSrc}
         />
-        <div className="rounded-8xs bg-coral text-white z-[3] absolute right-2 top-2 px-[6px] py-[2px]">
+        <div className="rounded-8xs flex items-center justify-center bg-coral text-white z-[3] absolute right-2 top-2 px-[6px] py-[2px]">
           <div className="text-[13px] font-semibold inline-block">
             {status}
           </div>

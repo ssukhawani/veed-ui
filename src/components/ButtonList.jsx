@@ -10,6 +10,7 @@ const ButtonsList = () => {
           imgSrc={button.imgSrc}
           text={button.text}
           hoverColor={button.hoverColor}
+          isNew={button.isNew}
         />
       ))}
     </div>

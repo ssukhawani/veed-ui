@@ -4,7 +4,7 @@ function NavLink({ title, iconUrl, isSpecial, isActive }) {
   return (
     <Link
       to="#"
-      className={`self-stretch no-underline rounded-lg ${
+      className={`font-semibold self-stretch no-underline rounded-lg ${
         isActive && "bg-whitesmoke-200"
       } flex flex-row items-start justify-between py-[0.875rem] px-[1rem] ${
         isSpecial ? "gap-[1.25rem]" : "gap-[0.75rem]"
@@ -17,7 +17,7 @@ function NavLink({ title, iconUrl, isSpecial, isActive }) {
           alt={title}
           src={iconUrl}
         />
-        <span className="relative leading-[1.25rem] text-[#18191B] font-medium inline-block min-w-[2.688rem]">
+        <span className="relative leading-[1.25rem] text-[#18191B] inline-block min-w-[2.688rem]">
           {title}
         </span>
       </div>

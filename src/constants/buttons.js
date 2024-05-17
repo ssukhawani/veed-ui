@@ -13,6 +13,7 @@ const buttonsData = [
       imgSrc: '/frame-18.svg',
       text: 'Go Live',
       hoverColor: '[#467AFF]',
+      isNew:true
     },
     {
       imgSrc: '/frame-19.svg',

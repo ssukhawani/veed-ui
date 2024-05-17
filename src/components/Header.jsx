@@ -5,10 +5,10 @@ const Header = () => {
       <div className="flex flex-col items-start justify-start pt-[0.656rem] px-[0rem] pb-[0rem]"></div>
 
       {/* Header right */}
-      <div className="flex flex-row items-center justify-center gap-[0.5rem] max-w-full text-gray-300 flex-wrap-reverse">
+      <div className="font-inter flex flex-row items-center justify-center gap-[0.25rem] max-w-full text-gray-300 flex-wrap-reverse">
         <div className="flex-1 flex flex-row items-start justify-start gap-[0.25rem]">
-          <div className="rounded-6xs cursor-pointer hover:bg-[#FFDAA3] bg-antiquewhite flex flex-row items-start justify-start py-[0.75rem] px-[0.937rem] gap-[0.418rem]">
-            <div className="relative leading-[1rem] font-medium inline-block min-w-[3.375rem]">
+          <div className="rounded-6xs cursor-pointer hover:bg-[#FFDAA3] bg-antiquewhite flex flex-row items-start justify-start py-[0.75rem] px-[1rem] gap-[0.418rem]">
+            <div className="relative leading-[1rem] font-semibold inline-block min-w-[3.375rem]">
               Upgrade
             </div>
             <img
@@ -17,18 +17,14 @@ const Header = () => {
               src="/frame-11.svg"
             />
           </div>
-          <div className="group rounded-6xs cursor-pointer hover:bg-[#EEEEF0] flex flex-row items-start justify-start py-[0.75rem] px-[0.937rem] gap-[0.418rem]">
-            <div className="flex flex-row items-start justify-start gap-[0.562rem]">
-              <img
-                className="h-[1.125rem] w-[1.125rem] relative overflow-hidden shrink-0 min-h-[1.125rem]"
-                alt=""
-                src="/frame-10.svg"
-              />
-              <div className="flex flex-col items-start justify-start pt-[0.062rem] px-[0rem] pb-[0rem]">
-                <div className="relative leading-[1rem] text-[#A5A7AD] font-medium group-hover:text-[#5C5E65]">
-                  Search
-                </div>
-              </div>
+          <div className="group rounded-6xs cursor-pointer hover:bg-[#EEEEF0] flex flex-row items-center justify-center gap-[0.5rem] py-[0.7rem] px-[1.5rem]">
+            <img
+              className="h-[1.125rem] w-[1.125rem] relative overflow-hidden shrink-0"
+              alt=""
+              src="/frame-10.svg"
+            />
+            <div className="relative leading-[1rem] text-[#A5A7AD] font-semibold group-hover:text-[#5C5E65]">
+              Search
             </div>
           </div>
 
@@ -38,7 +34,7 @@ const Header = () => {
               alt=""
               src="/frame-12.svg"
             />
-            <div className="relative leading-[1rem] font-medium inline-block min-w-[2.188rem]">
+            <div className="relative leading-[1rem] font-semibold inline-block min-w-[2.188rem]">
               Invite
             </div>
           </div>

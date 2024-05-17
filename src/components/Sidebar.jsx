@@ -2,10 +2,10 @@ import SidebarList from "./SidebarList";
 
 const Sidebar = () => {
   return (
-    <aside className="fixed left-0 top-0 z-50 bottom-0 mq1150:h-[100svh] w-[16rem] shadow-[0px_4px_5px_rgba(29,_29,_31,_0.05)] bg-white box-border flex flex-col items-start justify-start px-[1rem] py-[1rem] gap-[1.437rem] text-right text-[1.188rem] text-white font-inter border-r-[1px] border-solid border-whitesmoke-300 border-l-[1px] mq1150:hidden">
+    <aside className="fixed left-0 top-0 z-50 bottom-0 mq1150:h-[100svh] w-[16rem] shadow-[0px_4px_5px_rgba(29,_29,_31,_0.05)] bg-white box-border flex flex-col items-start justify-start px-[1rem] pt-[1.5rem] gap-[1rem] text-right text-[1.188rem] text-white font-inter border-r-[1px] border-solid border-whitesmoke-300 border-l-[1px] mq1150:hidden">
       {/* Logo */}
       <img
-        className="w-[7.406rem] h-[1.375rem] relative overflow-hidden shrink-0"
+        className="h-[1.375rem] relative overflow-hidden shrink-0"
         loading="lazy"
         alt=""
         src="/frame.svg"
@@ -22,7 +22,7 @@ const Sidebar = () => {
           <div className="self-stretch flex flex-col items-start justify-start">
             <div className="self-stretch flex flex-row items-end justify-start gap-[1rem]">
               <div className="flex">
-                <div className="max-w-[110px] text-ellipsis relative leading-[1.188rem] font-medium flex items-center shrink-0">
+                <div className="font-inter font-semibold max-w-[110px] text-ellipsis relative leading-[1.188rem] flex items-center shrink-0">
                   Sahil&apos;s workspace
                 </div>
                 {"..."}
@@ -33,7 +33,7 @@ const Sidebar = () => {
                 src="/frame-1.svg"
               />
             </div>
-            <div className="relative text-[0.813rem] leading-[1rem] font-medium text-gray-400 inline-block min-w-[3.625rem] mt-[-0.063rem]">
+            <div className="relative text-[0.813rem] leading-[1rem] font-semibold text-gray-400 inline-block min-w-[3.625rem] mt-[-0.063rem]">
               Free Plan
             </div>
           </div>
